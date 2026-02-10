@@ -11,3 +11,10 @@ function removeDuplicates(arr) {
 }
 
 console.log(removeDuplicates([1, 2, 2, 3, 4, 4]));
+
+function isPalindrome(str) {
+  let rev = str.split("").reverse().join("");
+  return str === rev;
+}
+
+console.log(isPalindrome("madam"));
